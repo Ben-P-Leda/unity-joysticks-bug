@@ -24,7 +24,7 @@ Tested on PC using wired Xbox 360 controllers on
 - Unplug controller B
 - Plug controller A back in
 - Plug controller B back in.
--**VERIFY:** Behaviour remains the same as above
+- **VERIFY:** Behaviour remains the same as above
 - Unplug controller A
 - Unplug controller B
 - **Ensuring controller A is unplugged**, plug controller B back in
