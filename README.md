@@ -13,13 +13,13 @@ Tested on PC using wired Xbox 360 controllers on
 - Open Unity, load the project, then open Scenes\Demo Bug Scene
 - Ensure "maximise on play" is not selected and console window is visible then start the project
 - Plug a controller (hereby referred to as controller A) into any USB port
-**VERIFY:** Text below "Joystick [n] value" section reports a stick name count of 1 "Controller (XBOX 360 for Windows)"
+- **VERIFY:** Text below "Joystick [n] value" section reports a stick name count of 1 "Controller (XBOX 360 for Windows)"
 - Move the left thumbstick on controller A left and right. 
-**VERIFY:** "Joystick 1 value" text changes with movement
+- **VERIFY:** "Joystick 1 value" text changes with movement
 - Plug a second controller (hereby referred to as controller B) into any free USB port
-**VERIFY:** Text below "Joystick [n] value" section reports a stick name count of 2 "Controller (XBOX 360 for Windows) :: Controller (XBOX 360 for Windows)"
+- **VERIFY:** Text below "Joystick [n] value" section reports a stick name count of 2 "Controller (XBOX 360 for Windows) :: Controller (XBOX 360 for Windows)"
 - Move the left thumbstick on controller B left and right. 
-**VERIFY:** "Joystick 2 value" text changes with movement
+- **VERIFY:** "Joystick 2 value" text changes with movement
 - Unplug controller A
 - Unplug controller B
 - Plug controller A back in
@@ -32,10 +32,10 @@ Tested on PC using wired Xbox 360 controllers on
 - Plug controller A back in
 - **VERIFY:**  Text below "Joystick [n] value" section reports a stick name count of 4 "--UNKNOWN-- || --UNKNOWN-- :: Controller (XBOX 360 for Windows) :: Controller (XBOX 360 for Windows)"
 - Move the left thumbstick on controller A left and right. 
-**VERIFY:** "Joystick 1 value" text **NO LONGER CHANGES**
-**VERIFY:** "Joystick 3 value" text changes with movement
+- **VERIFY:** "Joystick 1 value" text no longer changes with movement
+- **VERIFY:** "Joystick 3 value" text changes with movement
 - Move the left thumbstick on controller B left and right.
-**VERIFY:** None of the "Joystick [n] value" texts change
+- **VERIFY:** None of the "Joystick [n] value" texts change
 
 ### Observations:
 Instead of the expected behaviour of remapping controller A against joystick 1 and controller B against joystick 2, Unity progressively mapping controllers to new joysticks **unless they are plugged back in in the same order as they were unplugged**.
