@@ -24,13 +24,13 @@ Tested on PC using wired Xbox 360 controllers on
 - Unplug controller B
 - Plug controller A back in
 - Plug controller B back in.
-**VERIFY:** Behaviour remains the same as above
+-**VERIFY:** Behaviour remains the same as above
 - Unplug controller A
 - Unplug controller B
-- **Ensuring controller A is unplugged, plug controller B back in**
+- **Ensuring controller A is unplugged**, plug controller B back in
 - **VERIFY:**  Text below "Joystick [n] value" section reports a stick name count of 3 "--UNKNOWN-- || --UNKNOWN-- :: Controller (XBOX 360 for Windows)"
 - Plug controller A back in
- - **VERIFY:**  Text below "Joystick [n] value" section reports a stick name count of 4 "--UNKNOWN-- || --UNKNOWN-- :: Controller (XBOX 360 for Windows) :: Controller (XBOX 360 for Windows)"
+- **VERIFY:**  Text below "Joystick [n] value" section reports a stick name count of 4 "--UNKNOWN-- || --UNKNOWN-- :: Controller (XBOX 360 for Windows) :: Controller (XBOX 360 for Windows)"
 - Move the left thumbstick on controller A left and right. 
 **VERIFY:** "Joystick 1 value" text **NO LONGER CHANGES**
 **VERIFY:** "Joystick 3 value" text changes with movement
